@@ -43,12 +43,13 @@ type Matricula = {
 }
 
 export default function Home() {
-  const [matriculas, setMatriculas] = useState<Matricula[]>([]);
-  const [modulo, setModulo] = useState<string>();
-  const [rede, setRede] = useState<string>();
-  const [celula, setCelula] = useState<string>();
-  const [nome, setNome] = useState<string>();
-  const [telefone, setTelefone] = useState<string>();
+  const [enviando, setEnvio] = useState<boolean>(false)
+  const [matriculas, setMatriculas] = useState<Matricula[]>([])
+  const [modulo, setModulo] = useState<string>()
+  const [rede, setRede] = useState<string>()
+  const [celula, setCelula] = useState<string>()
+  const [nome, setNome] = useState<string>()
+  const [telefone, setTelefone] = useState<string>()
 
   function onAdd() {
     if (
@@ -58,8 +59,8 @@ export default function Home() {
       !nome ||
       !telefone
     ) {
-      alert("Campo obrigatório");
-      return;
+      alert("Campo obrigatório")
+      return
     }
 
     setMatriculas(old => ([
@@ -85,11 +86,13 @@ export default function Home() {
   }
 
   async function onFinish() {
+    setEnvio(true)
+
     for (let matricula of matriculas) {
       await push(ref(database, 'matriculas'), matricula)
     }
 
-    alert("Matriculas salvas com sucesso");
+    alert("Matriculas salvas com sucesso")
 
     setMatriculas([])
     setModulo('')
@@ -97,6 +100,7 @@ export default function Home() {
     setCelula('')
     setNome('')
     setTelefone('')
+    setEnvio(false)
   }
 
   return (
