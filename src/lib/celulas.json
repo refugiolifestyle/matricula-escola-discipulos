@@ -1,0 +1,658 @@
+[
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 1"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 2"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 3"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 4"
+    },
+    {
+        "rede": "Rede 8",
+        "celula": "Refúgio 5"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 6"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 7"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 8"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 9"
+    },
+    {
+        "rede": "Rede 8",
+        "celula": "Refúgio 10"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 11"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 12"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 13"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 14"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 15"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 16"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 17"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 18"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 19"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 20"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 21"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 23"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 24"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 25"
+    },
+    {
+        "rede": "Rede 10",
+        "celula": "Refúgio 26"
+    },
+    {
+        "rede": "Rede 8",
+        "celula": "Refúgio 27"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 28"
+    },
+    {
+        "rede": "Rede 5",
+        "celula": "Refúgio 29"
+    },
+    {
+        "rede": "Rede 10",
+        "celula": "Refúgio 30"
+    },
+    {
+        "rede": "Rede 7",
+        "celula": "Refúgio 31"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 32"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 33"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 34"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 34"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 35"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 36"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 37"
+    },
+    {
+        "rede": "Rede 11",
+        "celula": "Refúgio 38"
+    },
+    {
+        "rede": "Rede 5",
+        "celula": "Refúgio 39"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 40"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 41"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 42"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 43"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 44"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 45"
+    },
+    {
+        "rede": "Rede 11",
+        "celula": "Refúgio 46"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 49"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 50"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 51"
+    },
+    {
+        "rede": "Rede 16",
+        "celula": "Refúgio 52"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 53"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 54"
+    },
+    {
+        "rede": "Rede 2",
+        "celula": "Refúgio 55"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 56"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 57"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 58"
+    },
+    {
+        "rede": "Rede 11",
+        "celula": "Refúgio 59"
+    },
+    {
+        "rede": "Rede 8",
+        "celula": "Refúgio 60"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 61"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 62"
+    },
+    {
+        "rede": "Rede 17",
+        "celula": "Refúgio 63"
+    },
+    {
+        "rede": "Rede 16",
+        "celula": "Refúgio 64"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 65"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 66"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 67"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 68"
+    },
+    {
+        "rede": "Rede 7",
+        "celula": "Refúgio 69"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 70"
+    },
+    {
+        "rede": "Rede 5",
+        "celula": "Refúgio 71"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 72"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 73"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 74"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 75"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 76"
+    },
+    {
+        "rede": "Rede 1",
+        "celula": "Refúgio 77"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 78"
+    },
+    {
+        "rede": "Rede 7",
+        "celula": "Refúgio 79"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 80"
+    },
+    {
+        "rede": "Rede 7",
+        "celula": "Refúgio 81"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 83"
+    },
+    {
+        "rede": "Rede 5",
+        "celula": "Refúgio 84"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 85"
+    },
+    {
+        "rede": "Rede 16",
+        "celula": "Refúgio 86"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 87"
+    },
+    {
+        "rede": "Rede 16",
+        "celula": "Refúgio 88"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 89"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 90"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 91"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 92"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 93"
+    },
+    {
+        "rede": "Rede 17",
+        "celula": "Refúgio 94"
+    },
+    {
+        "rede": "Rede 10",
+        "celula": "Refúgio 95"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 96"
+    },
+    {
+        "rede": "Rede 11",
+        "celula": "Refúgio 97"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 98"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 99"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 100"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 101"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 102"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 102"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 103"
+    },
+    {
+        "rede": "Rede 5",
+        "celula": "Refúgio 104"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 105"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 106"
+    },
+    {
+        "rede": "Rede 5",
+        "celula": "Refúgio 107"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 108"
+    },
+    {
+        "rede": "Rede 17",
+        "celula": "Refúgio 109"
+    },
+    {
+        "rede": "Rede 2",
+        "celula": "Refúgio 110"
+    },
+    {
+        "rede": "Rede 10",
+        "celula": "Refúgio 111"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 112"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 113"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 114"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 115"
+    },
+    {
+        "rede": "Rede 16",
+        "celula": "Refúgio 116"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 117"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 118"
+    },
+    {
+        "rede": "Rede 8",
+        "celula": "Refúgio 119"
+    },
+    {
+        "rede": "Rede 16",
+        "celula": "Refúgio 120"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 121"
+    },
+    {
+        "rede": "Rede 1",
+        "celula": "Refúgio 122"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 123"
+    },
+    {
+        "rede": "Rede 8",
+        "celula": "Refúgio 124"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 125"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 126"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 127"
+    },
+    {
+        "rede": "Rede 6",
+        "celula": "Refúgio 128"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 129"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 130"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 131"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 132"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 133"
+    },
+    {
+        "rede": "Rede 19",
+        "celula": "Refúgio 134"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 135"
+    },
+    {
+        "rede": "Rede 1",
+        "celula": "Refúgio 136"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 137"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 138"
+    },
+    {
+        "rede": "Rede 5",
+        "celula": "Refúgio 139"
+    },
+    {
+        "rede": "Rede 17",
+        "celula": "Refúgio 140"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 141"
+    },
+    {
+        "rede": "Rede 7",
+        "celula": "Refúgio 142"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 143"
+    },
+    {
+        "rede": "Rede 17",
+        "celula": "Refúgio 144"
+    },
+    {
+        "rede": "Rede 2",
+        "celula": "Refúgio 145"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 146"
+    },
+    {
+        "rede": "Rede 7",
+        "celula": "Refúgio 147"
+    },
+    {
+        "rede": "Rede 14",
+        "celula": "Refúgio 148"
+    },
+    {
+        "rede": "Rede 10",
+        "celula": "Refúgio 149"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 150"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 151"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 152"
+    },
+    {
+        "rede": "Rede 2",
+        "celula": "Refúgio 153"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 154"
+    },
+    {
+        "rede": "Rede 1",
+        "celula": "Refúgio 155"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 156"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 157"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 158"
+    },
+    {
+        "rede": "Rede 9",
+        "celula": "Refúgio 159"
+    },
+    {
+        "rede": "Rede 13",
+        "celula": "Refúgio 160"
+    },
+    {
+        "rede": "Rede 12",
+        "celula": "Refúgio 161"
+    },
+    {
+        "rede": "Rede 10",
+        "celula": "Refúgio 162"
+    },
+    {
+        "rede": "Rede 3",
+        "celula": "Refúgio 163"
+    },
+    {
+        "rede": "Rede 16",
+        "celula": "Refúgio 164"
+    },
+    {
+        "rede": "Rede 18",
+        "celula": "Refúgio 165"
+    },
+    {
+        "rede": "Rede 4",
+        "celula": "Refúgio 166"
+    }
+]
