@@ -33,6 +33,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
 import { useState } from "react"
+import { ModeToggle } from "@/components/mode-toggle";
 
 type Matricula = {
   modulo: string;
@@ -63,17 +64,17 @@ export default function Home() {
       return
     }
 
-    setMatriculas(old => ([
-      ...old,
-      {
-        modulo,
-        rede,
-        celula,
-        nome,
-        telefone
-      } as Matricula
-    ]))
+    if (nome.split(' ').length < 2) {
+      alert("Informe o nome completo")
+      return
+    }
 
+    if (telefone.length < 8 || telefone.length > 11) {
+      alert("Informe um telefone válido")
+      return
+    }
+
+    setMatriculas(old => old.concat([{ modulo, rede, celula, nome, telefone } as Matricula]))
     setNome('')
     setTelefone('')
     setModulo('')
@@ -81,8 +82,8 @@ export default function Home() {
     setCelula('')
   }
 
-  function onRemove(i: number) {
-    setMatriculas(old => old.filter((v, o) => i !== o))
+  function onRemove(index: number) {
+    setMatriculas(old => old.filter((_, oIndex) => index !== oIndex))
   }
 
   async function onFinish() {
@@ -386,12 +387,13 @@ export default function Home() {
             </Table>
           </CardContent>
           <CardFooter>
-            <Button disabled={!matriculas.length || enviando} onClick={onFinish} className="w-full bg-green-600 hover:bg-green-700">
+            <Button disabled={!matriculas.length || enviando} onClick={onFinish} className="w-full">
               <Check className="mr-2 h-4 w-4" /> Salvar matriculas
             </Button>
           </CardFooter>
         </Card>
       </div>
+      <ModeToggle />
     </main>
   )
 }
