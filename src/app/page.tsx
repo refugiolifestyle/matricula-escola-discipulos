@@ -75,6 +75,9 @@ export default function Home() {
 
     setNome('')
     setTelefone('')
+    setModulo('')
+    setRede('')
+    setCelula('')
   }
 
   function onRemove(i: number) {
