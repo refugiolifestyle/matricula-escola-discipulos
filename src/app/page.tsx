@@ -386,7 +386,7 @@ export default function Home() {
             </Table>
           </CardContent>
           <CardFooter>
-            <Button disabled={!matriculas.length} onClick={onFinish} className="w-full bg-green-600 hover:bg-green-700">
+            <Button disabled={!matriculas.length || enviando} onClick={onFinish} className="w-full bg-green-600 hover:bg-green-700">
               <Check className="mr-2 h-4 w-4" /> Salvar matriculas
             </Button>
           </CardFooter>
