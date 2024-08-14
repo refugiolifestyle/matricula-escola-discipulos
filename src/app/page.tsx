@@ -333,7 +333,7 @@ export default function Home() {
               </div>
               <div className="grid gap-2">
                 <Label htmlFor="telefone">Telefone</Label>
-                <Input id="telefone" placeholder="Digite seu telefone" value={telefone} onChange={e => setTelefone(e.target.value)} />
+                <Input type="number" id="telefone" placeholder="Digite seu telefone" value={telefone} onChange={e => setTelefone(e.target.value)} />
               </div>
             </div>
           </CardContent>
