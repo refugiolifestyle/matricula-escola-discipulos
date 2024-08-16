@@ -55,7 +55,7 @@ export default function Martriculas() {
     return () => unsubs()
   }, [])
 
-  
+
   useEffect(() => {
     setPage(1)
   }, [modulo, rede, celula])
@@ -65,7 +65,7 @@ export default function Martriculas() {
   matriculasFiltered = matriculasFiltered.filter(row => rede ? row.rede === rede : true)
   matriculasFiltered = matriculasFiltered.filter(row => celula ? row.celula === celula : true)
 
-  const sorter = new Intl.Collator('pt-BR', {usage: "sort", numeric: true})
+  const sorter = new Intl.Collator('pt-BR', { usage: "sort", numeric: true })
   matriculasFiltered.sort((a, b) => sorter.compare(`${a.rede}-${a.celula}-${a.nome}-${a.modulo}`, `${b.rede}-${b.celula}-${b.nome}-${b.modulo}`))
 
   let pagesLength = matriculasFiltered.length ? Math.ceil(matriculasFiltered.length / 10) : 0
@@ -171,52 +171,46 @@ export default function Martriculas() {
                   ))
               }
             </TableBody>
-            {
-              matriculasFiltered.length
-                ? <TableFooter>
-                  <TableRow>
-                    <TableCell colSpan={2} className="text-left">
-                      <p className="text-sm text-gray-700 flex-1">
-                        Mostrando de <span className="font-medium">{((page - 1) * 10) + 1}</span>{' '}
-                        até{' '}
-                        <span className="font-medium">{page * 10 > matriculasFiltered.length ? matriculasFiltered.length : page * 10}</span>{' '}
-                        de{' '}
-                        <span className="font-medium">{matriculasFiltered.length}</span> linhas
-                      </p>
-                    </TableCell>
-                    <TableCell colSpan={3} className="text-right">
-                      <nav aria-label="Pagination" className="isolate inline-flex -space-x-px rounded-md shadow-sm flex-1">
-                        <a
-                          onClick={() => setPage(page == 1 ? 1 : page - 1)}
-                          href="#"
-                          className={`relative inline-flex items-center rounded-l-md px-2 py-2 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 gap-2 ${page === 1 ? 'pointer-events-none cursor-not-allowed text-gray-400' : 'text-gray-900'}`}
-                        >
-                          <span className="sr-only">Anterior</span>
-                          <ArrowLeft aria-hidden="true" className="h-5 w-5" />
-                          Anterior
-                        </a>
-                        <a
-                          href="#"
-                          className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
-                        >
-                          Página {page} de {pagesLength}
-                        </a>
-                        <a
-                          onClick={() => setPage(page + 1 > pagesLength ? pagesLength : page + 1)}
-                          href="#"
-                          className={`relative inline-flex items-center rounded-r-md px-2 py-2 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 gap-2 ${page === pagesLength ? 'pointer-events-none cursor-not-allowed text-gray-400' : 'text-gray-900'}`}
-                        >
-                          <span className="sr-only">Proxima</span>
-                          Proxima
-                          <ArrowRight aria-hidden="true" className="h-5 w-5" />
-                        </a>
-                      </nav>
-                    </TableCell>
-                  </TableRow>
-                </TableFooter>
-                : null
-            }
           </Table>
+          {
+            matriculasFiltered.length
+              ? <div className="flex flex-col md:flex-row items-center justify-between mt-4 gap-4">
+                <p className="text-sm text-gray-700">
+                  Mostrando de <span className="font-medium">{((page - 1) * 10) + 1}</span>{' '}
+                  até{' '}
+                  <span className="font-medium">{page * 10 > matriculasFiltered.length ? matriculasFiltered.length : page * 10}</span>{' '}
+                  de{' '}
+                  <span className="font-medium">{matriculasFiltered.length}</span> linhas
+                </p>
+                <nav aria-label="Pagination" className="isolate inline-flex -space-x-px">
+                  <a
+                    onClick={() => setPage(page == 1 ? 1 : page - 1)}
+                    href="#"
+                    className={`relative inline-flex items-center rounded-l-md px-2 py-2 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 gap-2 ${page === 1 ? 'pointer-events-none cursor-not-allowed ' : ''}`}
+                  >
+                    <span className="sr-only">Anterior</span>
+                    <ArrowLeft aria-hidden="true" className="h-5 w-5" />
+                    Anterior
+                  </a>
+                  <a
+                    href="#"
+                    className="relative inline-flex items-center px-4 py-2 text-sm font-semibold ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+                  >
+                    Página {page} de {pagesLength}
+                  </a>
+                  <a
+                    onClick={() => setPage(page + 1 > pagesLength ? pagesLength : page + 1)}
+                    href="#"
+                    className={`relative inline-flex items-center rounded-r-md px-2 py-2 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 gap-2 ${page === pagesLength ? 'pointer-events-none cursor-not-allowed ' : ''}`}
+                  >
+                    <span className="sr-only">Proxima</span>
+                    Proxima
+                    <ArrowRight aria-hidden="true" className="h-5 w-5" />
+                  </a>
+                </nav>
+              </div>
+              : null
+          }
         </CardContent>
       </Card>
       <ModeToggle />
