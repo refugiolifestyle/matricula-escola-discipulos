@@ -66,7 +66,7 @@ export default function Martriculas() {
   matriculasFiltered = matriculasFiltered.filter(row => celula ? row.celula === celula : true)
 
   const sorter = new Intl.Collator('pt-BR', { usage: "sort", numeric: true })
-  matriculasFiltered.sort((a, b) => sorter.compare(`${a.rede}-${a.celula}-${a.nome}-${a.modulo}`, `${b.rede}-${b.celula}-${b.nome}-${b.modulo}`))
+  matriculasFiltered.sort((a, b) => sorter.compare(`${a.rede}-${a.celula}-${a.modulo}-${a.nome}`, `${b.rede}-${b.celula}-${b.modulo}-${b.nome}`))
 
   let pagesLength = matriculasFiltered.length ? Math.ceil(matriculasFiltered.length / 10) : 0
 
