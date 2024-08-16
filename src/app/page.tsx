@@ -71,6 +71,11 @@ export default function Home() {
       return
     }
 
+    if (/[^\d]+/.test(telefone)) {
+      alert("Informe somente os números no telefone")
+      return
+    }
+
     if (telefone.length < 8 || telefone.length > 11) {
       alert("Informe um telefone válido")
       return
@@ -188,7 +193,7 @@ export default function Home() {
               </div>
               <div className="grid gap-2">
                 <Label htmlFor="telefone">Telefone</Label>
-                <Input type="number" id="telefone" placeholder="Digite seu telefone (somente números)" value={telefone} onChange={e => setTelefone(e.target.value)} />
+                <Input id="telefone" placeholder="Digite seu telefone (somente números)" value={telefone} onChange={e => setTelefone(e.target.value)} />
               </div>
             </div>
           </CardContent>
